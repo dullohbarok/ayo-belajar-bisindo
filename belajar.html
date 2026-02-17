@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi - Ayo Belajar Bisindo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex flex-col h-screen font-sans">
+
+    <nav class="bg-white shadow px-6 py-3 flex justify-between items-center">
+        <div class="font-bold text-xl text-blue-600">Level 1 - Modul 2: Angka & Waktu</div>
+        <button class="text-sm bg-gray-200 px-3 py-1 rounded hover:bg-gray-300">Kembali ke Dashboard</button>
+    </nav>
+
+    <div class="flex flex-1 overflow-hidden">
+        
+        <div class="flex-1 p-6 overflow-y-auto">
+            <div class="bg-white rounded-xl shadow p-4 max-w-4xl mx-auto">
+                
+                <div class="bg-black rounded-lg aspect-video flex flex-col items-center justify-center text-white relative mb-4">
+                    <span>[Pemutar Video Gerakan Isyarat]</span>
+                    
+                    <div class="absolute bottom-0 w-full bg-black/60 p-3 flex justify-between items-center rounded-b-lg">
+                        <button class="hover:text-blue-400">⏸ Play/Pause</button>
+                        <div class="space-x-2 flex items-center">
+                            <span class="text-xs text-gray-300">Kecepatan:</span>
+                            <button class="bg-gray-700 text-xs px-2 py-1 rounded hover:bg-blue-500">0.5x</button>
+                            <button class="bg-gray-700 text-xs px-2 py-1 rounded hover:bg-blue-500">0.75x</button>
+                            <button class="bg-blue-600 text-xs px-2 py-1 rounded">1.0x</button>
+                            <button class="ml-4 text-sm border border-white px-2 py-1 rounded hover:bg-white hover:text-black">🔁 Loop</button>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="text-2xl font-bold mb-2">Isyarat: "Jam Berapa?"</h2>
+                <div class="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
+                    <h4 class="font-semibold text-blue-800">Penjelasan Gerakan:</h4>
+                    <p class="text-gray-700 mt-1">1. Tunjuk pergelangan tangan kiri dengan telunjuk kanan (seperti menunjuk jam tangan).<br>
+                    2. Angkat kedua alis (ekspresi bertanya).<br>
+                    3. Buka telapak tangan kanan dan putar sedikit.</p>
+                </div>
+                
+                <div class="mt-6 text-right">
+                    <button class="bg-green-500 text-white px-6 py-2 rounded shadow hover:bg-green-600">✓ Tandai Selesai & Lanjut</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-80 bg-white shadow-l border-l flex flex-col">
+            <div class="p-4 bg-gray-50 font-bold border-b">Daftar Materi</div>
+            <div class="overflow-y-auto flex-1 p-2">
+                <a href="#" class="block p-3 mb-2 bg-green-100 border border-green-300 rounded text-sm"><span class="text-green-600 mr-2">✓</span> Pengenalan Angka 1-10</a>
+                <a href="#" class="block p-3 mb-2 bg-blue-50 border-l-4 border-blue-500 rounded text-sm font-semibold">Isyarat "Jam Berapa?"</a>
+                <a href="#" class="block p-3 mb-2 hover:bg-gray-100 rounded text-sm text-gray-500 flex justify-between">Masa Lalu & Masa Depan <span class="text-xs border px-1 rounded">Terkunci</span></a>
+                <a href="#" class="block p-3 mb-2 bg-yellow-50 text-yellow-700 border border-yellow-200 rounded text-sm text-center font-bold mt-4">🏆 Mulai Kuis Modul 2</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
